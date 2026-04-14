@@ -1,0 +1,5 @@
+105 Laptop 1500.50
+102 Mouse 25.00
+108 Keyboard 45.00
+101 Monitor 300.00
+106 Printer 200.00
