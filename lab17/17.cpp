@@ -94,49 +94,20 @@ vector<Product> getProductsByPrice(vector<Product> arr, double targetPrice)
 
 int main()
 {
-    vector<Product> products(6);
+    vector<Product> products={
+        {"Apple",25.5,{0.3,0.2,13.8},0.0},
+        {"Chicken",150.0,{27.0,14.0,0.0},0.0},
+        {"Rice",60.0,{2.7,0.3,28.0},0.0},
+        {"Pork",150.0,{16.0,21.0,0.0},0.0},
+        {"Egg",60.0,{13.0,11.0,1.1},0.0},
+        {"Milk",35.0,{3.2,3.2,4.8},0.0}
+    };
     vector<Product> sortedByCalories;
     vector<Product> sortedByPrice;
     vector<Product> searchResults;
     int i;
     int resultsCount;
     double targetPrice;
-
-    products[0].name="Apple";
-    products[0].price=25.5;
-    products[0].nutrients[0]=0.3;
-    products[0].nutrients[1]=0.2;
-    products[0].nutrients[2]=13.8;
-
-    products[1].name="Chicken";
-    products[1].price=150.0;
-    products[1].nutrients[0]=27.0;
-    products[1].nutrients[1]=14.0;
-    products[1].nutrients[2]=0.0;
-
-    products[2].name="Rice";
-    products[2].price=60.0;
-    products[2].nutrients[0]=2.7;
-    products[2].nutrients[1]=0.3;
-    products[2].nutrients[2]=28.0;
-
-    products[3].name="Pork";
-    products[3].price=150.0;
-    products[3].nutrients[0]=16.0;
-    products[3].nutrients[1]=21.0;
-    products[3].nutrients[2]=0.0;
-
-    products[4].name="Egg";
-    products[4].price=60.0;
-    products[4].nutrients[0]=13.0;
-    products[4].nutrients[1]=11.0;
-    products[4].nutrients[2]=1.1;
-
-    products[5].name="Milk";
-    products[5].price=35.0;
-    products[5].nutrients[0]=3.2;
-    products[5].nutrients[1]=3.2;
-    products[5].nutrients[2]=4.8;
 
     for(i=0;i<6;i++)
     {
