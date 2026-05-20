@@ -60,4 +60,4 @@ int main()
 
     delete[] teamArray;
     return 0;
-}
+}///

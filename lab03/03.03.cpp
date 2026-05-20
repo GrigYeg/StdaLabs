@@ -97,4 +97,4 @@ int main()
     cout<<"Bank payments:"<<bankCount<<endl;
 
     return 0;
-}
+}///
