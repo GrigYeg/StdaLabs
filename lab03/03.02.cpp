@@ -70,4 +70,4 @@ int main()
     cout<<"Group average grade:"<<groupAverage<<endl;
 
     return 0;
-}///
+}
